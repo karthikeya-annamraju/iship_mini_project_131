@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:chat_app/pages/Login_or_register.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -75,7 +76,9 @@ class _GetStartedState extends State<GetStarted> {
                       SizedBox(height: 23,),
 
                       GestureDetector(
-                        onTap: (){},
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginOrRegister()));
+                        },
                         child: Container(
                           height: 65,
                           width: 180,
