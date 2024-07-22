@@ -28,7 +28,7 @@ class _RegisterPageState extends State<RegisterPage> {
               width: devWidth,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(devWidth*(2/5)),),
-                color: Colors.grey.shade300,
+                color: Colors.grey.shade100,
                   image: DecorationImage(image: AssetImage('assets/images/reg.jpeg'), fit: BoxFit.cover)
               ),
             ),
