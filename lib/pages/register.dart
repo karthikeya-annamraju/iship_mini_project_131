@@ -65,6 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             hintText: "User Id",
                             hintStyle: GoogleFonts.roboto(color: Colors.grey.shade500)
                         ),
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
 
@@ -85,6 +86,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           hintText: "Password",
                           hintStyle: GoogleFonts.roboto(color: Colors.grey.shade500),
                         ),
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
 
@@ -105,6 +107,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           hintText: "Confirm password",
                           hintStyle: GoogleFonts.roboto(color: Colors.grey.shade500),
                         ),
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
 

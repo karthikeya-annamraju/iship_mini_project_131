@@ -64,8 +64,9 @@ class _LoginPageState extends State<LoginPage> {
                             filled: true,
                             fillColor: Colors.white.withOpacity(0.3),
                             hintText: "User Id",
-                            hintStyle: GoogleFonts.roboto(color: Colors.grey.shade500)
+                            hintStyle: GoogleFonts.roboto(color: Colors.grey.shade500),
                         ),
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
 
@@ -86,6 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                           hintText: "Password",
                           hintStyle: GoogleFonts.roboto(color: Colors.grey.shade500),
                         ),
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
 
