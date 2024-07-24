@@ -26,7 +26,9 @@ class _CallRingingState extends State<CallRinging> {
             children: [
               SizedBox(width: 21,),
               GestureDetector(
-                onTap: (){},
+                onTap: (){
+                  Navigator.pop(context);
+                },
                 child: Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black,),
               ),
               SizedBox(width: 310,),
@@ -85,7 +87,9 @@ class _CallRingingState extends State<CallRinging> {
               ),
               SizedBox(width: 25,),
               GestureDetector(
-                onTap: (){},
+                onTap: (){
+                  Navigator.pop(context);
+                },
                 child: Container(
                   height: 80,
                   width: 80,
