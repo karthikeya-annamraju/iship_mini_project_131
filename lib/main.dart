@@ -1,22 +1,14 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-<<<<<<< HEAD
-
-import 'package:chatapp/Pages/letsConnect.dart';
-import 'package:chatapp/firebase_options.dart';
-import 'package:firebase_core/firebase_core.dart';
-=======
 import 'package:chat_app/pages/get_started.dart';
 import 'package:chat_app/pages/loginPage.dart';
 import 'package:chat_app/pages/splash_screen.dart';
->>>>>>> a0d0b35de823b543ad071f37e25b4c10cb31b084
 import 'package:flutter/material.dart';
-
 
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 
 }
@@ -33,11 +25,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-<<<<<<< HEAD
-      home: LetsConnect(),
-=======
       home: SplashScreen(),
->>>>>>> a0d0b35de823b543ad071f37e25b4c10cb31b084
     );
   }
 }
