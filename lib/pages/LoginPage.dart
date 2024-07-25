@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:chat_app/pages/call_ringing.dart';
+import 'package:chat_app/pages/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -95,6 +97,9 @@ class _LoginPageState extends State<LoginPage> {
                     SizedBox(height: devHeight*(0.15/5),),
                     Center(
                       child: GestureDetector(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>CallRinging()));
+                        },
                         child: Container(
                           height: devHeight*(0.34/5),
                           width: devWidth*(2.4/5),

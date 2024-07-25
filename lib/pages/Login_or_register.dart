@@ -1,4 +1,4 @@
-import 'package:chat_app/pages/loginPage.dart';
+import 'package:chat_app/pages/LoginPage.dart';
 import 'package:chat_app/pages/register.dart';
 import 'package:flutter/material.dart';
 
