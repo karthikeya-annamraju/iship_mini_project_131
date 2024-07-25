@@ -8,12 +8,55 @@ import 'package:google_fonts/google_fonts.dart';
 class LoginPage extends StatefulWidget {
   final void Function()?onTap ;
   const LoginPage({super.key, required this.onTap});
-
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
+
+  var names = ["Joe Root",
+              "Navel Joard",
+              "James Anderson",
+              "Steve Jobs",
+              "Will Smith",
+              "Divakar Chan",
+              "Gold Smith",
+              "Franklin Clinton",
+              "Trevor Jones",
+              "Taylor Swift",
+              "Ariana Grande",
+              "Ellie"
+            ];
+
+  var messages = [
+    "Okay, I'll try. Can you help......",
+    "Haha. Really you're a great person",
+    "Thanks for your appreciations.",
+    "Alright, I'll look into it",
+    "Oh ! Is it so ?",
+    "See you tomorrow. Bye for now.",
+    "Gotta refer ChatGPT to solve that bug.",
+    "Hi, I'm at THub, can you please text ?",
+    "Okay, let me know if you need help",
+    "Are you free to take calls ?",
+    "When are we playing?",
+    "Bro, Hop on into the game",
+  ];
+
+  var time = [
+    "2:45",
+    "14:15",
+    "6:30",
+    "9:23",
+    "5:36",
+    "19:32",
+    "14:45",
+    "4:15",
+    "16:30",
+    "20:05",
+    "14:49",
+  ];
+
   @override
   Widget build(BuildContext context) {
     double devHeight = MediaQuery.of(context).size.height;
