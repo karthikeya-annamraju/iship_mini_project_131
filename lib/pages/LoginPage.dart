@@ -15,16 +15,15 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
 
   var names = ["Joe Root",
+              "Taylor Swift",
               "Navel Joard",
               "James Anderson",
+              "Valkyrie",
               "Steve Jobs",
-              "Will Smith",
-              "Divakar Chan",
-              "Gold Smith",
-              "Franklin Clinton",
-              "Trevor Jones",
-              "Taylor Swift",
               "Ariana Grande",
+              "Amber Chan",
+              "Dua Lipa",
+              "Will Smith",
               "Ellie"
             ];
 
@@ -55,6 +54,20 @@ class _LoginPageState extends State<LoginPage> {
     "16:30",
     "20:05",
     "14:49",
+  ];
+
+  var avatars = [
+    "assets/images/boy1b1.png",
+    "assets/images/girl1p1.png",
+    "assets/images/boy1b2.png",
+    "assets/images/boy1b3.png",
+    "assets/images/girl3p3.png",
+    "assets/images/boy1p1.png",
+    "assets/images/girl4b1.png",
+    "assets/images/girl2p2.png",
+    "assets/images/girl4b2.png",
+    "assets/images/boy1p2.png",
+    "assets/images/girl5b3.png",
   ];
 
   @override
